@@ -1,0 +1,18 @@
+a {
+    display: block;
+}
+
+a:not(:last-child) {
+    float: left;
+    margin-right: 6px;
+}
+
+a:last-child{
+    float: right;
+}
+
+.container:after{
+    clear: both;
+    content: '';
+    display: block;
+}

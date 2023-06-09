@@ -1,0 +1,5 @@
+.top__container:after{
+    clear: both;
+    content: '';
+    display: block;
+}
